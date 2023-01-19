@@ -2,7 +2,7 @@
 This project is modified or improved version of [movies forest](https://github.com/hitesh911/movies_forest)
 ## Introduction
 
-The goal of this project is to provide minimalistic django project template that everyone can use, which _just works_ out of the box and has the basic setup you can expand on. 
+The goal of this project is to provide  django project template with many added features that everyone can use.
 
 Template is written with django 3.2.1 and python 3 in mind.
 
@@ -22,6 +22,8 @@ Template is written with django 3.2.1 and python 3 in mind.
 * Separated requirements files
 
 * Push notification implemented already
+
+* Message framwork , Whitenoise and many more are already implemented
 
 # Usage
 
@@ -75,7 +77,7 @@ Activate the virtualenv for your project.
     
 Install project dependencies:
 
-    $ pip install -r requirements/local.txt
+    $ pip install -r requirements.txt
     
     
 Then simply apply the migrations:
